@@ -1,0 +1,211 @@
+header{
+    font-family: "PT Sans", serif;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+header .navbar-brand h1{
+    color: #2c4964;
+    font-size: 30px;
+    font-weight: 700;
+    margin:0px 20px 0px 0px;
+}
+header .navbar-nav{
+    margin: 0px 0px 0px 65px;
+}
+header .nav-item .nav-link{
+    color: #444444;
+    margin: 0px 0px 0px 36px;
+    &&:hover{
+        border-bottom: 2px solid #1977cc;
+        color: #1977cc;
+    }
+}
+header .d-flex .btn{
+    color: #ffffff;
+    background:#1977cc ;
+    border: 2px solid #1977cc;
+    font-size: 14px;
+    padding: 6px 22px;
+    border-radius: 50px;
+    margin:0px 0px 0px 46px ;
+    &&:hover{
+        opacity: 0.8;
+    }  
+}
+ /* banner start */
+ .banner{
+    background: url(../images/1.jpg);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    overflow: hidden;
+    padding: 30px 0px 50px 0px;
+    font-family: "PT Sans", serif;
+}
+.banner h2{
+    color:#2c4964;
+    font-weight: bolder;
+    padding: 40px 0px 0px 0px;
+    font-size: 50px;
+   
+}
+.banner p{
+    font-size: 17px;
+    margin: 0px 0px 70px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.banner .text i{
+    font-size: 30px;
+    color: #1977cc;
+}
+.banner .text h4{
+    margin: 0px 15px 0px 15px;
+    padding: 15px 0px 0px 0px;
+}
+.banner .why{
+    background: #1977cc;
+    color: #ffffff;
+    margin: 21px 0px 0px 0px;
+    border-radius: 3px;
+    padding: 12px 37px 49px 37px;
+    margin: 0px 0px 0px 0px;
+}
+.banner .why h3{
+    padding: 22px 0px px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 40px;
+    font-weight:bolder;
+}
+.banner .why p{
+    margin: 0px 0px 30px 0px ;
+    padding:  26px 0px 0px 0px;
+}
+.banner .why a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px 0px 0px 82px;
+    padding: 10px 15px 10px 15px;
+    background-color: #8ab4da;
+    border-radius: 25px;
+}
+.banner .btn{
+    padding: 0px 0px 0px 0px;
+}
+.banner .text{
+    box-shadow: 0px 0px 3px hsl(0, 100%, 100%); 
+    background-color: color-mix(in srgb, #ffffff,transparent 20%);
+    border-radius: 15px;
+    width: 30%;
+    margin: 83px 0px 0px 20px;
+    text-align: center;
+}
+.banner .text .icon{
+    margin: 25px 0px 0px 0px;
+}
+.banner .text p{
+    margin: 0px 10px 45px 10px;
+    padding: 20px 0px 0px 0px ;
+    font-size:15px ;
+    color:#787878;
+}
+ /* about start */
+.about{
+    padding: 60px 0px 0px 0px;
+
+}
+
+.about .us h2{
+    color: #2c4964;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about .icon{
+    float: left;
+    font-size: 40px;
+    padding-top: 30px;
+    color: #1977cc;
+
+}
+.about .icon-body{
+    margin: 0px 0px 0px 70px;
+
+}
+.about .icon-body h4{
+    color: #2c4964;
+    font-size: 20px; 
+    padding-top: 30px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight:700;
+
+}
+/* box start */
+.box{
+    padding: 70px 0px 40px 0px;
+    margin: 70px 0px 0px 0px;
+    background-color: #f1f7fc;
+}
+.box .body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.box .circle{
+    text-align: center;
+}
+.box .circle .text{
+    font-size: 27px;
+    background-color: #1977cc;
+    color: #ffffff;
+    font-weight: bold;
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    border: 2px solid #8ab4da;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    z-index: 1;
+    position: relative;
+}
+.box .circle .body{
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 60px 0px 5px 0px;
+    margin-top: -27px;
+    border-radius: 3px;
+}
+/* box end */
+/* services start */
+.service{
+    font-family: "Noto Sans", sans-serif;
+    padding: 60px 0px 0px 0px;
+    
+}
+.service .ser h2{
+    text-align: center;
+    border-bottom: 2px solid #b4b4b4;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    color: #2c4964;
+    font-size: bold;
+}
+.service .ser h2::after{
+    content: "";
+    position: absolute;
+    left: 32px;
+    right: 36px;
+    top: 0;
+    bottom: -2px;
+    border-bottom: 3px solid #1977cc;
+}
+.service .ser p{
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+}
+
+/* services end */
+
+
+
+
+
